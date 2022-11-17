@@ -1,3 +1,4 @@
+/* changes the cursor when you hover over the links in the nav bar */
 li span:hover {
   cursor: pointer;
 }
