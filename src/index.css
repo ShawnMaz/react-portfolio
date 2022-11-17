@@ -2,3 +2,12 @@
 li span:hover {
   cursor: pointer;
 }
+
+/* modifies the profile image in the about page */
+.hero-img {
+  object-fit: cover;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.75 );
+}

@@ -1,5 +1,6 @@
 import './App.css';
 import Nav from './Components/Nav';
+import AboutMe from './Components/AboutMe';
 import {useState} from 'react';
 
 function App() {
@@ -25,6 +26,11 @@ function App() {
   return (
     <div>
       <Nav navLinks = {navLinks} currentNavLink={currentNavLink} setCurrentNavLink={setCurrentNavLink}></Nav>
+      <main>
+        {
+          currentNavLink.name === 'About Me' && <AboutMe/>
+        }
+      </main>
     </div>
   );
 }
