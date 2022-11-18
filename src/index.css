@@ -12,14 +12,16 @@ li span:hover {
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.75 );
 }
 
+/* blur the project image */
 .img-blur{
   filter: blur(4px);
 }
 
-.overlay-visibile{
-  visibility: visible; 
+/* reset default underline and colour of the a tag */
+a {
+  all:unset;
 }
-
-.overlay-invisible{
-  visibility: hidden;
+a:hover {
+  all:unset;
+  cursor: pointer;
 }
