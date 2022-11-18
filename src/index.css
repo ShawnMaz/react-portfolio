@@ -11,3 +11,15 @@ li span:hover {
   border-radius: 50%;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.75 );
 }
+
+.img-blur{
+  filter: blur(4px);
+}
+
+.overlay-visibile{
+  visibility: visible; 
+}
+
+.overlay-invisible{
+  visibility: hidden;
+}
