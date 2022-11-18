@@ -1,7 +1,7 @@
 import {useState} from 'react';
 
 function Project(props){
-    const [hoverState, setHoverState] = useState(false);
+    const [hoverState, setHoverState] = useState(-1);
 
     return(
         <section className="container">
@@ -9,18 +9,17 @@ function Project(props){
                 {props.projects.map((project, i) => (
                     <div 
                         className="col-md-12 col-lg-5 p-0 my-3 mx-auto card"
-                        onMouseOver={() => setHoverState(true)}
-                        onMouseOut={() => setHoverState(false)}
-                        // onClick={() => setHoverState(!hoverState)}
+                        onMouseOver={() => setHoverState(`card-${i}`)}
+                        onMouseOut={() => setHoverState(-1)}
                         key={`card-${project.title}`}
                     >
                         <img 
                             src={require(`../../assets/images/${project.image}`)} 
-                            className={`img-fluid border border-1 border-dark border-opacity-25 rounded-2 shadow-lg ${hoverState && 'img-blur'}`} 
+                            className={`img-fluid border border-1 border-dark border-opacity-25 rounded-2 shadow-lg ${hoverState === `card-${i}` && 'img-blur'}`} 
                             alt="..." 
                         />
                         {
-                            hoverState && (
+                            hoverState === `card-${i}` && (
                                 <div 
                                     className={`card-img-overlay`} 
                                 >
