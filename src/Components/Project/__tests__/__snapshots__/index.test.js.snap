@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Project component matches snapshot 1`] = `
+<DocumentFragment>
+  <section
+    class="container"
+  >
+    <div
+      class="row"
+    >
+      <div
+        class="col-md-12 col-lg-5 p-0 my-3 mx-auto card"
+      >
+        <img
+          alt="..."
+          class="img-fluid border border-1 border-dark border-opacity-25 rounded-2 shadow-lg false"
+          src="Giglr.png"
+        />
+      </div>
+      <div
+        class="col-md-12 col-lg-5 p-0 my-3 mx-auto card"
+      >
+        <img
+          alt="..."
+          class="img-fluid border border-1 border-dark border-opacity-25 rounded-2 shadow-lg false"
+          src="Undercurrents.png"
+        />
+      </div>
+      <div
+        class="col-md-12 col-lg-5 p-0 my-3 mx-auto card"
+      >
+        <img
+          alt="..."
+          class="img-fluid border border-1 border-dark border-opacity-25 rounded-2 shadow-lg false"
+          src="weather-dashboard.png"
+        />
+      </div>
+      <div
+        class="col-md-12 col-lg-5 p-0 my-3 mx-auto card"
+      >
+        <img
+          alt="..."
+          class="img-fluid border border-1 border-dark border-opacity-25 rounded-2 shadow-lg false"
+          src="coding-quiz.png"
+        />
+      </div>
+      <div
+        class="col-md-12 col-lg-5 p-0 my-3 mx-auto card"
+      >
+        <img
+          alt="..."
+          class="img-fluid border border-1 border-dark border-opacity-25 rounded-2 shadow-lg false"
+          src="social-network-api.png"
+        />
+      </div>
+      <div
+        class="col-md-12 col-lg-5 p-0 my-3 mx-auto card"
+      >
+        <img
+          alt="..."
+          class="img-fluid border border-1 border-dark border-opacity-25 rounded-2 shadow-lg false"
+          src="ecommerce-api.png"
+        />
+      </div>
+    </div>
+  </section>
+</DocumentFragment>
+`;
