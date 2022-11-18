@@ -8,7 +8,7 @@ function Portfolio(){
             image:'Giglr.png',
             deployedUrl:'https://giglr.herokuapp.com/',
             githubRepo:'https://github.com/KeeveRW11/giglr',
-            techStack:'MERN'
+            techStack:'MySQL, Express, Node & Bootstrap'
         }, 
         {
             name:'Undercurrents',
