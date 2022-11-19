@@ -2,6 +2,7 @@ import './App.css';
 import Nav from './Components/Nav';
 import AboutMe from './Components/AboutMe';
 import Portfolio from './Components/Portfolio';
+import Contact from './Components/Contact'
 import {useState} from 'react';
 
 function App() {
@@ -33,6 +34,9 @@ function App() {
         }
         {
           currentNavLink.name === 'Portfolio' && <Portfolio/>
+        }
+        {
+          currentNavLink.name === 'Contact' && <Contact/>
         }
       </main>
     </div>
