@@ -2,7 +2,8 @@ import './App.css';
 import Nav from './Components/Nav';
 import AboutMe from './Components/AboutMe';
 import Portfolio from './Components/Portfolio';
-import Contact from './Components/Contact'
+import Contact from './Components/Contact';
+import Resume from './Components/Resume';
 import {useState} from 'react';
 
 function App() {
@@ -37,6 +38,9 @@ function App() {
         }
         {
           currentNavLink.name === 'Contact' && <Contact/>
+        }
+        {
+          currentNavLink.name === 'Resume' && <Resume/>
         }
       </main>
     </div>

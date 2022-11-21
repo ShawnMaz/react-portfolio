@@ -11,7 +11,7 @@ function Project(props){
                         className="col-md-12 col-lg-5 p-0 my-3 mx-auto card"
                         onMouseOver={() => setHoverState(`card-${i}`)}
                         onMouseOut={() => setHoverState(-1)}
-                        key={`card-${project.title}`}
+                        key={`card-${project.name}`}
                     >
                         <img 
                             src={require(`../../assets/images/${project.image}`)} 
