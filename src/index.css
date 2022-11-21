@@ -25,3 +25,9 @@ a:hover {
   all:unset;
   cursor: pointer;
 }
+
+/* iframe for the resume */
+iframe {
+  width: 100%;
+  height: 90vh;
+}
