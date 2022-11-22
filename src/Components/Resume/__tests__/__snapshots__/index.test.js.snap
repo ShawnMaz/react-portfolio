@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Resume component matches snapshot 1`] = `
+<DocumentFragment>
+  <section
+    class="container"
+  >
+    <div
+      class="row"
+    >
+      <div
+        class="col-sm-12 mx-auto my-3"
+      >
+        <p>
+          <a
+            class="text-primary"
+            download=""
+            href="resume.pdf"
+          >
+            Click here
+          </a>
+           to download the resume.
+        </p>
+      </div>
+      <div
+        class="col-sm-12"
+      >
+        <h2>
+          Front-end Profeciencies
+        </h2>
+        <ul>
+          <li>
+            HTML
+          </li>
+          <li>
+            CSS
+          </li>
+          <li>
+            Responsive design
+          </li>
+          <li>
+            React
+          </li>
+          <li>
+            Bootstrap
+          </li>
+        </ul>
+      </div>
+      <div
+        class="col-sm-12"
+      >
+        <h2>
+          Back-end Profeciencies
+        </h2>
+        <ul>
+          <li>
+            Node
+          </li>
+          <li>
+            Express
+          </li>
+          <li>
+            MySQL, Sequelize
+          </li>
+          <li>
+            MongoDB, Mongoose
+          </li>
+          <li>
+            REST
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+</DocumentFragment>
+`;
