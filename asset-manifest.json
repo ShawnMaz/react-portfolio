@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.19020f2e.css",
-    "main.js": "/react-portfolio/static/js/main.ccfc2fbb.js",
-    "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
-    "static/media/profile-photo.jpg": "/react-portfolio/static/media/profile-photo.1ae5445eb15ac29cba82.jpg",
-    "static/media/Giglr.png": "/react-portfolio/static/media/Giglr.adc46d6f08d9ec53b8eb.png",
-    "static/media/social-network-api.png": "/react-portfolio/static/media/social-network-api.3274e7f45d9f4829c1f9.png",
-    "static/media/portfolio.png": "/react-portfolio/static/media/portfolio.ba24c262c938c8053022.png",
-    "static/media/ecommerce-api.png": "/react-portfolio/static/media/ecommerce-api.c80883016c0b30dd8798.png",
-    "static/media/weather-dashboard.png": "/react-portfolio/static/media/weather-dashboard.f635e4a368e1b25f8f0b.png",
-    "static/media/resume.pdf": "/react-portfolio/static/media/resume.2dcb0a794f1b2f5b2e8b.pdf",
-    "static/media/coding-quiz.png": "/react-portfolio/static/media/coding-quiz.2885da7d168a432a74e7.png",
-    "static/media/Undercurrents.png": "/react-portfolio/static/media/Undercurrents.a83a1a198c997a9f41ff.png",
-    "index.html": "/react-portfolio/index.html",
-    "main.19020f2e.css.map": "/react-portfolio/static/css/main.19020f2e.css.map",
-    "main.ccfc2fbb.js.map": "/react-portfolio/static/js/main.ccfc2fbb.js.map",
-    "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
+    "main.css": "./static/css/main.19020f2e.css",
+    "main.js": "./static/js/main.2bc63221.js",
+    "static/js/787.a2cb61a6.chunk.js": "./static/js/787.a2cb61a6.chunk.js",
+    "static/media/profile-photo.jpg": "./static/media/profile-photo.1ae5445eb15ac29cba82.jpg",
+    "static/media/Giglr.png": "./static/media/Giglr.adc46d6f08d9ec53b8eb.png",
+    "static/media/social-network-api.png": "./static/media/social-network-api.3274e7f45d9f4829c1f9.png",
+    "static/media/portfolio.png": "./static/media/portfolio.ba24c262c938c8053022.png",
+    "static/media/ecommerce-api.png": "./static/media/ecommerce-api.c80883016c0b30dd8798.png",
+    "static/media/weather-dashboard.png": "./static/media/weather-dashboard.f635e4a368e1b25f8f0b.png",
+    "static/media/resume.pdf": "./static/media/resume.2dcb0a794f1b2f5b2e8b.pdf",
+    "static/media/coding-quiz.png": "./static/media/coding-quiz.2885da7d168a432a74e7.png",
+    "static/media/Undercurrents.png": "./static/media/Undercurrents.a83a1a198c997a9f41ff.png",
+    "index.html": "./index.html",
+    "main.19020f2e.css.map": "./static/css/main.19020f2e.css.map",
+    "main.2bc63221.js.map": "./static/js/main.2bc63221.js.map",
+    "787.a2cb61a6.chunk.js.map": "./static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.19020f2e.css",
-    "static/js/main.ccfc2fbb.js"
+    "static/js/main.2bc63221.js"
   ]
 }
