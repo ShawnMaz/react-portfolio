@@ -4,6 +4,7 @@ import AboutMe from './Components/AboutMe';
 import Portfolio from './Components/Portfolio';
 import Contact from './Components/Contact';
 import Resume from './Components/Resume';
+import Footer from './Components/Footer';
 import {useState} from 'react';
 
 function App() {
@@ -27,9 +28,9 @@ function App() {
   const [currentNavLink, setCurrentNavLink] = useState(navLinks[0]);
   
   return (
-    <div>
+    <div className='app-body'>
       <Nav navLinks = {navLinks} currentNavLink={currentNavLink} setCurrentNavLink={setCurrentNavLink}></Nav>
-      <main>
+      <main className='content'>
         {
           currentNavLink.name === 'About Me' && <AboutMe/>
         }
@@ -43,6 +44,7 @@ function App() {
           currentNavLink.name === 'Resume' && <Resume/>
         }
       </main>
+      <Footer/>
     </div>
   );
 }

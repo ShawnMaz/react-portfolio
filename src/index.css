@@ -1,3 +1,18 @@
+/* setting default style for the main body of the App.js so that the footer can be positioned at the bottom of the page for the pages with different heights */
+.app-body{
+  min-height: 100vh;
+  position: relative;
+  margin: 0;
+  padding-bottom: 50px;
+  box-sizing: border-box;
+}
+footer{
+  position: absolute;
+  height: 50px;
+  width: 100%;
+  bottom: 0;
+}
+
 /* changes the cursor when you hover over the links in the nav bar */
 li span:hover {
   cursor: pointer;
@@ -25,3 +40,4 @@ a:hover {
   all:unset;
   cursor: pointer;
 }
+
