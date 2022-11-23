@@ -3,7 +3,7 @@ function Nav(props) {
     return (
         <nav className="navbar navbar-expand-md bg-light border border-secondary border-opacity-25">
             <div className="container">
-                <a data-testid='navBarHeader' className="navbar-brand fw-bold" href="/">
+                <a data-testid='navBarHeader' className="navbar-brand fw-bold" href="https://shawnmaz.github.io/react-portfolio/">
                     Shantanu Mazumder
                 </a>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
