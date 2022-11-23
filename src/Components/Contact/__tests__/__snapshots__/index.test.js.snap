@@ -5,6 +5,9 @@ exports[`Contact component matches snapshot 1`] = `
   <section
     class="container mt-3"
   >
+    <h2>
+      Contact
+    </h2>
     <div
       class="row"
     >

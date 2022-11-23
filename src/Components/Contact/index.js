@@ -41,6 +41,7 @@ function Contact(){
 
     return (
         <section className="container mt-3">
+            <h2>Contact</h2>
             <div className="row">
                 <form id='contact-form' className="col-sm-12 col-md-6" onSubmit={handleSubmit} noValidate>
                     <div className="mb-3">
