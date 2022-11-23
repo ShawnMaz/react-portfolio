@@ -3,7 +3,8 @@ import resume from './resume.pdf';
 function Resume(){
 
     return(
-        <section className='container'>
+        <section className='container mt-3'>
+            <h2>Resume</h2>
             <div className='row'>
                 <div className='col-sm-12 mx-auto my-3'>
                     <p><a href={resume} className='text-primary' download>Click here</a> to download the resume.</p>
