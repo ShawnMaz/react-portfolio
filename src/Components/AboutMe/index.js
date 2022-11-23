@@ -3,6 +3,7 @@ import profileImage from '../../assets/images/profile-photo.jpg';
 function AboutMe(){
     return(
         <section className="container d-flex flex-column align-items-center">
+            <h2 className='my-3'>About Me</h2>
             <img data-testid='profilePhoto' className='hero-img my-3' src={profileImage} alt='Shantanu Mazumder'/>
             <p data-testid='profileUserName' className='fs-1 fw-semibold mb-0'>Shantanu Mazumder</p>
             <h6 data-testid='profileUserTitle' className='fw-semibold'>Aspiring Full Stack Web Developer</h6>
