@@ -47,7 +47,8 @@ function Portfolio(){
         }
     ]);
     return(
-        <section>
+        <section className='d-flex flex-column align-items-center mt-3'>
+            <h2>Portfolio</h2>
             <Project  projects={projects}/>
         </section>
     );

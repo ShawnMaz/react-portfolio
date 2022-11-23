@@ -2,7 +2,12 @@
 
 exports[`Portfolio component matches snapshot 1`] = `
 <DocumentFragment>
-  <section>
+  <section
+    class="d-flex flex-column align-items-center mt-3"
+  >
+    <h2>
+      Portfolio
+    </h2>
     <section
       class="container"
     >
