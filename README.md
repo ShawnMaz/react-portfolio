@@ -13,6 +13,7 @@ The purpose of this site is to show case the technical skills and the knowledge 
 * [Contributing](#contributing)
 * [Tests](#tests)
 * [Questions](#questions)
+* [Deployed Link](#deployed-link)
 
 ## Installation
 To install this application run ```npm i```. This will install all the necessary packages.
@@ -31,6 +32,10 @@ Currently there is no way to contribute to this project.
 
 ## Tests
 All the components in the project has tests associated with them. The tests utilize Jest testing framework. To run the tests type ```npm run test```.
+
+
+## Deployed Link
+The deployed portfolio can be found [here](https://shawnmaz.github.io/react-portfolio/).
 
 ## Questions
 For any questions about the project, please don't hesitate to reach out.
