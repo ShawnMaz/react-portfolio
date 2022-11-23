@@ -39,6 +39,9 @@ exports[`Resume component matches snapshot 1`] = `
             CSS
           </li>
           <li>
+            JavaScript
+          </li>
+          <li>
             Responsive design
           </li>
           <li>

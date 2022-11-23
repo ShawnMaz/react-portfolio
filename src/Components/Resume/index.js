@@ -10,17 +10,18 @@ function Resume(){
                     <p><a href={resume} className='text-primary' download>Click here</a> to download the resume.</p>
                 </div>
                 <div className='col-sm-12'>
-                    <h2>Front-end Profeciencies</h2>
+                    <h2>Front-end Proficiencies</h2>
                     <ul>
                         <li>HTML</li>
                         <li>CSS</li>
+                        <li>JavaScript</li>
                         <li>Responsive design</li>
                         <li>React</li>                        
                         <li>Bootstrap</li>                        
                     </ul>
                 </div>
                 <div className='col-sm-12'>
-                    <h2>Back-end Profeciencies</h2>
+                    <h2>Back-end Proficiencies</h2>
                     <ul>
                         <li>Node</li>
                         <li>Express</li>
