@@ -13,7 +13,7 @@ function Portfolio(){
         {
             name:'Giglr',
             image:'Giglr.png',
-            deployedUrl:'https://giglr.herokuapp.com/',
+            deployedUrl:'https://giglr-app.herokuapp.com/',
             githubRepo:'https://github.com/KeeveRW11/giglr',
             techStack:'MySQL, Express, Node & Bootstrap'
         }, 
