@@ -4,6 +4,13 @@ import Project from '../Project';
 function Portfolio(){
     const [projects] = useState([
         {
+            name:"Serf's Market",
+            image:'serfs-market.png',
+            deployedUrl:'https://serfs-market.herokuapp.com/',
+            githubRepo:'https://github.com/ShawnMaz/serfs-market',
+            techStack:'MERN Stack with GraphQL'
+        },
+        {
             name:'Giglr',
             image:'Giglr.png',
             deployedUrl:'https://giglr.herokuapp.com/',
